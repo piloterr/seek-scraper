@@ -2,7 +2,7 @@
 // Usage: PILOTERR_API_KEY=your-key node search.mjs
 
 const params = new URLSearchParams({
-  "query": "YOUR_VALUE",
+  "query": "nurse",
 });
 
 const response = await fetch(`https://api.piloterr.com/v2/seek/search?${params}`, {

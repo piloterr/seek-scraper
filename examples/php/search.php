@@ -3,7 +3,7 @@
 // Usage: PILOTERR_API_KEY=your-key php search.php
 
 $params = http_build_query([
-    'query' => 'YOUR_VALUE',
+    'query' => 'nurse',
 ]);
 
 $ch = curl_init('https://api.piloterr.com/v2/seek/search?' . $params);

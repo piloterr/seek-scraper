@@ -192,7 +192,7 @@ response = requests.get(
     "https://api.piloterr.com/v2/seek/search",
     headers={"x-api-key": os.environ["PILOTERR_API_KEY"]},
     params={
-        "query": "YOUR_VALUE",
+        "query": "nurse",
     },
     timeout=60,
 )
@@ -234,7 +234,7 @@ type SeekSearch = {
 };
 
 const params = new URLSearchParams({
-  "query": "YOUR_VALUE",
+  "query": "nurse",
 });
 
 const response = await fetch(`https://api.piloterr.com/v2/seek/search?${params}`, {
@@ -255,7 +255,7 @@ POST https://api.piloterr.com/v2/seek/search
 x-api-key: YOUR_API_KEY
 Content-Type: application/json
 
-{"query": "YOUR_VALUE"}
+{"query": "nurse"}
 ```
 </details>
 
